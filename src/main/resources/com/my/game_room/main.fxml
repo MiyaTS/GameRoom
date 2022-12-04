@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="850.0" style="-fx-background-color: #8c8cba;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.my.game_room.controller.MenuController">
+    <children>
+      <ImageView fitHeight="430.0" fitWidth="850.0" layoutY="103.0">
+         <image>
+            <Image url="@img/gameroomMain.png" />
+         </image>
+      </ImageView>
+        <Button layoutX="208.0" layoutY="519.0" mnemonicParsing="false" onAction="#switchToGameRoomMenu" prefHeight="58.0" prefWidth="146.0" style="-fx-background-color: #a1b9e3; -fx-border-style: solid; -fx-border-color: white; -fx-border-insets: 5;" text="Меню кімнат" textFill="#5e17eb">
+         <font>
+            <Font name="Rockwell" size="13.0" />
+         </font></Button>
+        <Button layoutX="527.0" layoutY="519.0" mnemonicParsing="false" onAction="#switchToToysMenu" prefHeight="58.0" prefWidth="146.0" style="-fx-background-color: #a1b9e3; -fx-border-color: white; -fx-border-insets: 5;" text="Меню іграшок" textFill="#5e17eb">
+         <font>
+            <Font name="Rockwell" size="13.0" />
+         </font></Button>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+        <Text fill="WHITE" layoutX="230.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вітаємо в сервісі створення ігрових кімнат!">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font></Text>
+    </children>
+</AnchorPane>
